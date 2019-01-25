@@ -1,5 +1,3 @@
-## Deutsch:
-
 # Studio Link Integration für WordPress
 
 Das Entwicklungsziel dieses Plugins ist es, jedem zu ermöglichen seinen Studio Link Live Podcast einfach in Wordpress ein zu binden und je nach Status des Livestreams Veränderungen an der Seite vorzunehmen.
@@ -36,24 +34,24 @@ Dieser Text wird angezeigt, wenn der Podcast "podcastastisch" in der Preshow, Li
 **[/StudioLink]**
 
 
-# Installation
+### Installation
 
 1. Lade das Plugin über den Grünen Button oben rechts "Clone or Download" und dann "Download ZIP" herunter.
 2. Gehe in Wordpress auf die Plugin Installation und dort auf "Plugin Hochladen".
 3. Lade das Plugin hoch, Installiere und Aktiviere es.
 
-# Known Bugs
+### Known Bugs
 = 1.0.1 =
 Die Übersetzung funktioniert nicht.
 
-# Changelog
+### Changelog
 = 1.0.1 =
 Admin Menu neu Strukturiert, beginn der Implementierung von Twitter Auto Posts
 
 = 1.0 =
 Die erste Version: Es gibt Shortcodes.
 
-# Warum sollte ich Updaten?
+### Warum sollte ich Updaten?
 
 = 1.0.1 =
 Das neue Menu ist deutlich Benutzerfreundlicher, es gibt nun die möglichkeit Shortcodes zu deaktivieren und man kann sich schon auf die Menu Strucktur der Twitter Posts vorbereiten.
