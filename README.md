@@ -27,8 +27,11 @@ Das hat genau den gleichen effekt wie online="true".
 **[/StudioLink]**
 
 Es gibt folgende Zustände:
+
 **Online:** true / false
+
 **Status:** offline / preshow / live / postshow / break / online
+
 
 Für das erkennen des Status wird der Podcast genutzt, der in den Einstellungen festgelegt werden kann.
 Soll der Status eines anderen Podcasts genutzt werden, gibt es auch die Möglichkeit für jedes Shortcode einen eigenen Podcast fest zu legen:
