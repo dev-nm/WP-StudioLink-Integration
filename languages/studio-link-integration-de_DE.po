@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: studio-link-integration\n"
+"POT-Creation-Date: 2019-01-25 11:17+0100\n"
+"PO-Revision-Date: 2019-01-25 11:40+0000\n"
+"Last-Translator: n.mierbach <n.mierbach@mierbach.de>\n"
+"Language-Team: Deutsch\n"
+"Language: de-DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/titan-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: admin/class-studio-link-integration-settings.php:65
+msgid "Studio Link"
+msgstr "Studio Link"
+
+#: admin/class-studio-link-integration-settings.php:69
+msgid "Social Media"
+msgstr "Social Media"
+
+#: admin/class-studio-link-integration-settings.php:70
+msgid ""
+"This Area is still under heavy construction! None of the Options will Work "
+"in the realeased Version 1.0.1!"
+msgstr ""
+"Dieser Bereich wird noch bearbeitet! Keine der Optionen funktioniert in der "
+"Version 1.0.1!"
+
+#: admin/class-studio-link-integration-settings.php:73
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/class-studio-link-integration-settings.php:76
+msgid "Twitter API"
+msgstr "Twitter API"
+
+#: admin/class-studio-link-integration-settings.php:77
+msgid ""
+"You need to have a connection to the Twitter API to make it possible to post "
+"automaticly onto Twitter:<br><ol><strong><li>Apply for a Developer Account "
+"at <a href=\"https://developer.twitter.com/\">Twitter</a></li><li>Register "
+"this site as an application on <a href=\"https://developer.twitter."
+"com/en/apps\">Registration for Applications</a>.</li></strong><ul><li>Your "
+"App can not include \"Twitter\".</li><li>Your Applicationdescription can be "
+"anything</li><li>Check \"Enable Sign in with Twitter\".</li><li>The WebSite "
+"and Callback URL should be:"
+msgstr ""
+"Du musst eine Verbindung zur Twitter API aufbauen, um es möglich zu machen "
+"autmatisch auf Twitter zu posten:<br><ol><strong><li>Erstelle einen "
+"Entwickler Account auf <a href=\"https://developer.twitter.com/\">Twitter</a>"
+"</li><li>Registriere diese Seite als App auf <a href=\"https://developer."
+"twitter.com/en/apps\">Registrierung für Applikationen</a>.</li></strong><ul>"
+"<li>Der Name darf nicht \"Twitter\" enthalten.</li><li>Die Beschreibung kann "
+"alles sein.</li><li>Setze den Haken bei \"Erlaube das Einloggen über "
+"Twitter\"</li><li>Die WebSite und CallBack URL sollten folgendes sein:"
+
+#: admin/class-studio-link-integration-settings.php:77
+msgid ""
+"</ul><strong><li>Get the API and Access Tokens and Secrets and copy them "
+"into the Fields below.</li></strong></ol>"
+msgstr ""
+"</ul><strong><li>Hole dir dir den API Key, API Key Secret,Token und Token "
+"Secrets kopiere sie in die Felder unten.</li></strong></ol>"
+
+#: admin/class-studio-link-integration-settings.php:80
+msgid "Twitter Posting"
+msgstr "Twitter Posting"
+
+#: admin/class-studio-link-integration-settings.php:81
+msgid ""
+"Please Check if you have your Twitter API configured correctly before using "
+"this Menue!"
+msgstr ""
+"Bitte überprüfe, ob die Twitter API richtig konfoguriert ist, bevor du "
+"dieses Menü nutzt."
+
+#: admin/class-studio-link-integration-settings.php:89
+msgid "Slug Position:"
+msgstr "Slug Position:"
+
+#: admin/class-studio-link-integration-settings.php:93
+msgid "Studio Link Slug"
+msgstr "Studio Link Slug"
+
+#: admin/class-studio-link-integration-settings.php:96
+msgid "The Studio Link Slug, you can set in the Studio Link On Air Options."
+msgstr ""
+"Der Studio Link Slug, welchen du in den Studio Link On Air Optionen "
+"festlegen kannst."
+
+#: admin/class-studio-link-integration-settings.php:100
+msgid "Shortcodes"
+msgstr "ShortCodes"
+
+#: admin/class-studio-link-integration-settings.php:104
+msgid "Turns the ShortCodes on or off."
+msgstr "Schaltet die ShortCodes an oder aus."
+
+#: admin/class-studio-link-integration-settings.php:113
+msgid "Enable Automatic Twitter Postings"
+msgstr "Aktiviert automatische Twitter Posting"
+
+#: admin/class-studio-link-integration-settings.php:117
+msgid ""
+"This Enables the Automatic Twitter Posting. You can learn more about it in "
+"the \"Twitter Posting\" tab."
+msgstr ""
+"Automatische Twitter Postings helfen dir, deine Follower darüber zu "
+"informieren wann ein Podcast los geht oder auf hört."
+
+#: admin/class-studio-link-integration-settings.php:127
+msgid "Twitter API Key"
+msgstr "Twitter API Key"
+
+#: admin/class-studio-link-integration-settings.php:132
+msgid "Twitter API Secret"
+msgstr "Twitter API Secret"
+
+#: admin/class-studio-link-integration-settings.php:137
+msgid "Twitter Token"
+msgstr "Twitter Token"
+
+#: admin/class-studio-link-integration-settings.php:142
+msgid "Twitter Token Secret"
+msgstr "Twitter Token Secret"
+
+#: admin/class-studio-link-integration-settings.php:155
+msgid "Offline"
+msgstr "Offline"
+
+#: admin/class-studio-link-integration-settings.php:158
+msgid "Enable Offline Post"
+msgstr "Aktivierte Offline Post"
+
+#: admin/class-studio-link-integration-settings.php:162
+msgid "This lets you post something if the Podcast goes Offline."
+msgstr "Diese Option lässt dich etwas Posten, wenn dein Podcast Ofline geht."
+
+#: admin/class-studio-link-integration-settings.php:165
+msgid "Offline Post Text"
+msgstr "Offline Post Text"
+
+#: admin/class-studio-link-integration-settings.php:168
+msgid "My podcast $podcast_name is now offline! See you again next time!"
+msgstr ""
+"Mein Podcast $podcast_name is jetzt offline! Wir sehen uns das nächste mal!"
+
+#: admin/class-studio-link-integration-settings.php:169 
+#: admin/class-studio-link-integration-settings.php:188 
+#: admin/class-studio-link-integration-settings.php:207 
+#: admin/class-studio-link-integration-settings.php:226 
+#: admin/class-studio-link-integration-settings.php:245 
+#: admin/class-studio-link-integration-settings.php:264
+msgid "This is the Post that will get Tweeted."
+msgstr "Das ist der Text, der getweetet wird."
+
+#: admin/class-studio-link-integration-settings.php:174
+msgid "Online"
+msgstr "Online"
+
+#: admin/class-studio-link-integration-settings.php:177
+msgid "Enable Online Post"
+msgstr "Enable Offline PostAktiviere Online Post"
+
+#: admin/class-studio-link-integration-settings.php:181
+msgid "This lets you post something if the Podcast goes Online."
+msgstr "Diese Option lässt dich etwas Posten, wenn dein Podcast online geht."
+
+#: admin/class-studio-link-integration-settings.php:184
+msgid "Online Post Text"
+msgstr "Online Post Text"
+
+#: admin/class-studio-link-integration-settings.php:187 
+#: admin/class-studio-link-integration-settings.php:225
+msgid "We`re online now! Visit $url to join us!"
+msgstr "Wir sind jetzt Online! Komm auf $url, um dabei zu sein!"
+
+#: admin/class-studio-link-integration-settings.php:193
+msgid "Preshow"
+msgstr "Preshow"
+
+#: admin/class-studio-link-integration-settings.php:196
+msgid "Enable Preshow Post"
+msgstr "Aktiviere Preshow Post"
+
+#: admin/class-studio-link-integration-settings.php:200
+msgid ""
+"This lets you post something if the Podcast goes into the Preshow state."
+msgstr ""
+"Diese Option lässt dich etwas Posten, wenn dein Podcast in die Preshow geht."
+
+#: admin/class-studio-link-integration-settings.php:203
+msgid "Preshow Post Text"
+msgstr "Preshow Post Text"
+
+#: admin/class-studio-link-integration-settings.php:206
+msgid ""
+"We`re just preparing for $podcast_name . Join us at $url so you dont miss "
+"anything!"
+msgstr ""
+"Wir bereiten uns gerade auf $podcast_name vor!. Besucht $urlum nichts zu "
+"verpassen!"
+
+#: admin/class-studio-link-integration-settings.php:212
+msgid "Live"
+msgstr "Live"
+
+#: admin/class-studio-link-integration-settings.php:215
+msgid "Enable Live Post"
+msgstr "Aktiviere Live Post"
+
+#: admin/class-studio-link-integration-settings.php:219
+msgid "This lets you post something if the Podcast goes Live."
+msgstr "Diese Option lässt dich etwas Posten, wenn dein Podcast Live geht."
+
+#: admin/class-studio-link-integration-settings.php:222
+msgid "live Post Text"
+msgstr "Live Post Text"
+
+#: admin/class-studio-link-integration-settings.php:231
+msgid "Postshow"
+msgstr "Postshow"
+
+#: admin/class-studio-link-integration-settings.php:234
+msgid "Enable Postshow Post"
+msgstr "Aktiviere Postshow Post"
+
+#: admin/class-studio-link-integration-settings.php:238
+msgid ""
+"This lets you post something if the Podcast goes into the Postshow state."
+msgstr ""
+"Diese Option lässt dich etwas Posten, wenn dein Podcast in die Posthow geht."
+
+#: admin/class-studio-link-integration-settings.php:241
+msgid "Postshow Post Text"
+msgstr "Postshow Post Text"
+
+#: admin/class-studio-link-integration-settings.php:244
+msgid "Show is over, but we`re still here for you and your questions at $url!"
+msgstr ""
+"Die Show ist vorbei, aber für Fragen sind wir immernoch bereit auf $url!"
+
+#: admin/class-studio-link-integration-settings.php:250
+msgid "Break"
+msgstr "Break"
+
+#: admin/class-studio-link-integration-settings.php:253
+msgid "Enable Break Post"
+msgstr "Aktiviere Break Post"
+
+#: admin/class-studio-link-integration-settings.php:257
+msgid "This lets you post something if the Podcast has a Break."
+msgstr ""
+"Diese Option lässt dich etwas Posten, wenn dein Podcast eine Pause einlegt."
+
+#: admin/class-studio-link-integration-settings.php:260
+msgid "Break Post Text"
+msgstr "Break Post Text"
+
+#: admin/class-studio-link-integration-settings.php:263
+msgid "Just a little break at $podcast_name - We`re back in no time!"
+msgstr "Wir machen nur eine kleine Pause! Wir sind bald wieder für euch da!"
