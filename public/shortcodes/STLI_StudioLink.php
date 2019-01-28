@@ -37,6 +37,8 @@ class STLI_StudioLink{
 			}
 			$this->listeners = $decoded_json['listeners'];
 			$this->name = $decoded_json['name'];
+		} else {
+			$this->online = 'false';
 		}
 	}
 	
