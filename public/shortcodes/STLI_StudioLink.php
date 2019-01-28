@@ -25,7 +25,8 @@ class STLI_StudioLink{
 		if(empty($this->studioLinkSlug))
 			return 'false';
 		$jsonurl = 'https://stream.studio-link.de/api/streams/'.$this->studioLinkSlug.'.json';
-		$json = file_get_contents($jsonurl);
+		$get_json_file = wp_remote_get( $jsonurl );
+		$json = wp_remote_retrieve_body( $get_json_file );
 		if($json != "[]"){
 			$decoded_json = json_decode($json, true);
 			$this->state = $decoded_json['state'];
