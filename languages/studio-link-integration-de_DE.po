@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: studio-link-integration\n"
-"POT-Creation-Date: 2019-01-25 11:17+0100\n"
-"PO-Revision-Date: 2019-01-25 11:40+0000\n"
+"POT-Creation-Date: 2019-01-25 11:54+0000\n"
+"PO-Revision-Date: 2019-01-28 10:00+0000\n"
 "Last-Translator: n.mierbach <n.mierbach@mierbach.de>\n"
 "Language-Team: Deutsch\n"
 "Language: de-DE\n"
@@ -79,7 +79,7 @@ msgid ""
 "Please Check if you have your Twitter API configured correctly before using "
 "this Menue!"
 msgstr ""
-"Bitte überprüfe, ob die Twitter API richtig konfoguriert ist, bevor du "
+"Bitte überprüfe, ob die Twitter API richtig konfiguriert ist, bevor du "
 "dieses Menü nutzt."
 
 #: admin/class-studio-link-integration-settings.php:89
@@ -268,3 +268,23 @@ msgstr "Break Post Text"
 #: admin/class-studio-link-integration-settings.php:263
 msgid "Just a little break at $podcast_name - We`re back in no time!"
 msgstr "Wir machen nur eine kleine Pause! Wir sind bald wieder für euch da!"
+
+#. Name of the plugin
+msgid "Studio Link Integration"
+msgstr "Studio Link Integration"
+
+#. Description of the plugin
+msgid "This Plugin integrates Studio Link into your Wordpress installation."
+msgstr "Dieses Plugin integriert Studio Link in deine Wordpress Installation."
+
+#. URI of the plugin
+msgid "https://sendegate.de/t/wordpress-studio-link-integration/8416"
+msgstr "https://sendegate.de/t/wordpress-studio-link-integration/8416"
+
+#. Author of the plugin
+msgid "Nicolas Mierbach"
+msgstr "Nicolas Mierbach"
+
+#. Author URI of the plugin
+msgid "https://github.com/dev-nm/WP-StudioLink-Integration"
+msgstr "https://github.com/dev-nm/WP-StudioLink-Integration"
