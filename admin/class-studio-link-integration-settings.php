@@ -67,7 +67,7 @@ class STLI_Admin_Settings {
 		) );
 		$panel_social = $panel_general->createAdminPanel( array(
 			'name' => __( 'Social Media', 'studio-link-integration' ),
-			'desc' => __( 'This Area is still under heavy construction! None of the Options will Work in the realeased Version 1.0.1!', 'studio-link-integration' ),
+			'desc' => sprintf(__( 'This Area is still under heavy construction! None of the Options will Work in the realeased Version %s!', 'studio-link-integration' ), $this->version),
 		) );
 		$tab_social_general = $panel_social->createTab( array(
 			'name' => __( 'General', 'studio-link-integration' ),
