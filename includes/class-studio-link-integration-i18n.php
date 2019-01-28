@@ -45,7 +45,7 @@ class Studio_Link_Integration_i18n {
 		load_plugin_textdomain(
 			$this->domain,
 			false,
-			dirname( plugin_basename( __FILE__ ) ) . '/languages/'
+			dirname( plugin_basename( __DIR__ ) ) . '/languages/'
 		);
 
 	}
