@@ -41,6 +41,4 @@ class STLI_StudioLink{
 			$this->online = 'false';
 		}
 	}
-	
 }
-?>
