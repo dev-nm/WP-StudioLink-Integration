@@ -270,4 +270,3 @@ class STLI_Admin_Settings {
 	}
 	
 }
-?>
