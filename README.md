@@ -1,29 +1,29 @@
 # Studio Link Integration für WordPress
 
-Das Entwicklungsziel dieses Plugins ist es, jedem zu ermöglichen seinen Studio Link Live Podcast einfach in Wordpress ein zu binden und je nach Status des Livestreams Veränderungen an der Seite vorzunehmen.
-Das mit dem Ziel, es zu ermöglichen den Benutzer auf der Seite auf eine selbst festgelegte Methode zu vermitteln, dass der Livestream gerade sendet oder eben nicht.
+Das Entwicklungsziel dieses Plugins ist es, jedem zu ermöglichen, seinen Studio Link Live Podcast einfach in WordPress einzubinden und je nach Status des Livestreams Veränderungen an der Seite vorzunehmen.
+Das mit dem Ziel, es zu ermöglichen, den Benutzer auf der Seite auf eine selbst festgelegte Methode zu vermitteln, dass der Livestream gerade sendet oder eben nicht.
 
-So ist zum Beispiel denkbar, eine Box ein zu blenden wenn der Podcast live ist, die Benutzer darauf hinweist.
+So ist zum Beispiel denkbar, eine Box einzublenden, wenn der Podcast live ist und so die Benutzer darauf hinweist.
 Eine andere Möglichkeit ist es, eine OnAir Grafik im Hintergrund einzublenden oder gleich den Live Podcast in einer Leiste einzubinden.
 
-Aber auch darüber hinaus gibt es pläne: So arbeiten wir derzeit an einer anbindung an den Podlove Publisher und an einem Twitter Post Bot, der deine Follower informiert, wenn dein Podcast Online geht.
+Aber auch darüber hinaus gibt es Pläne: So arbeiten wir derzeit an einer Anbindung an den Podlove Publisher und an einem Twitter Post Bot, der deine Follower informiert, wenn dein Podcast online geht.
 
 Vorerst gibt es aber folgende Funktionalität:
 
-**[StudiLink status="Preshow"]**
+**[StudioLink status="Preshow"]**
 Dieser Text wird nur angezeigt, wenn die Show in der Preshow ist.
 **[/StudioLink]**
 
-**[StudiLink status="Live"]**
+**[StudioLink status="Live"]**
 Jetzt sind wir sogar Live!
 **[/StudioLink]**
 
-**[StudiLink online="true"]**
+**[StudioLink online="true"]**
 Dieser Text wird angezeigt, wenn der Podcast in der Preshow, Live oder in der Postshow ist.
 **[/StudioLink]**
 
-**[StudiLink]**
-Das hat genau den gleichen effekt wie online="true".
+**[StudioLink]**
+Das hat genau den gleichen Effekt wie online="true".
 **[/StudioLink]**
 
 Es gibt folgende Zustände:
@@ -33,10 +33,10 @@ Es gibt folgende Zustände:
 **Status:** offline / preshow / live / postshow / break / online
 
 
-Für das erkennen des Status wird der Podcast genutzt, der in den Einstellungen festgelegt werden kann.
-Soll der Status eines anderen Podcasts genutzt werden, gibt es auch die Möglichkeit für jedes Shortcode einen eigenen Podcast fest zu legen:
+Für das Erkennen des Status wird der Podcast genutzt, der in den Einstellungen festgelegt werden kann.
+Soll der Status eines anderen Podcasts genutzt werden, gibt es auch die Möglichkeit für jedes Shortcode einen eigenen Podcast festzulegen:
 
-**[StudiLink online="true" slug="podcastastisch"]**
+**[StudioLink online="true" slug="podcastastisch"]**
 Dieser Text wird angezeigt, wenn der Podcast "podcastastisch" in der Preshow, Live oder in der Postshow ist.
 **[/StudioLink]**
 
@@ -61,7 +61,7 @@ Die erste Version: Es gibt Shortcodes.
 ### Warum sollte ich Updaten?
 
 = 1.0.1 =
-Das neue Menu ist deutlich Benutzerfreundlicher, es gibt nun die möglichkeit Shortcodes zu deaktivieren und man kann sich schon auf die Menu Strucktur der Twitter Posts vorbereiten.
+Das neue Menu ist deutlich Benutzerfreundlicher, es gibt nun die Möglichkeit, Shortcodes zu deaktivieren und man kann sich schon auf die Menu Struktur der Twitter Posts vorbereiten.
 
 = 1.0 =
 Naja - Du hast nicht wirklich eine Wahl oder?
