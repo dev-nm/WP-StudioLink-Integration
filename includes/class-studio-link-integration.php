@@ -140,9 +140,11 @@ class Studio_Link_Integration {
 	private function set_locale() {
 
 		$plugin_i18n = new Studio_Link_Integration_i18n();
-		$plugin_i18n->set_domain( 'studio-link-integration' ); //Änderung nötig?
+		$plugin_i18n->set_domain( 'studio-link-integration' );
+		$plugin_i18n->set_titan_domain( 'titan-framework' );
 
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
+		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_titan_textdomain' );
 
 	}
 

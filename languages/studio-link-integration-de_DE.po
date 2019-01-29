@@ -1,22 +1,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: studio-link-integration\n"
-"POT-Creation-Date: 2019-01-25 11:54+0000\n"
-"PO-Revision-Date: 2019-01-28 10:00+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-29 13:52+0100\n"
+"PO-Revision-Date: 2019-01-29 13:54+0100\n"
 "Last-Translator: n.mierbach <n.mierbach@mierbach.de>\n"
 "Language-Team: Deutsch\n"
-"Language: de-DE\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-KeywordsList: __;_e\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: admin/titan-framework\n"
-"Report-Msgid-Bugs-To: \n"
-"X-Loco-Version: 2.2.0; wp-5.0.3"
 
 #: admin/class-studio-link-integration-settings.php:65
 msgid "Studio Link"
@@ -27,12 +27,13 @@ msgid "Social Media"
 msgstr "Social Media"
 
 #: admin/class-studio-link-integration-settings.php:70
+#, php-format
 msgid ""
 "This Area is still under heavy construction! None of the Options will Work "
-"in the realeased Version 1.0.1!"
+"in the realeased Version %s!"
 msgstr ""
 "Dieser Bereich wird noch bearbeitet! Keine der Optionen funktioniert in der "
-"Version 1.0.1!"
+"Version %s!"
 
 #: admin/class-studio-link-integration-settings.php:73
 msgid "General"
@@ -43,32 +44,30 @@ msgid "Twitter API"
 msgstr "Twitter API"
 
 #: admin/class-studio-link-integration-settings.php:77
+#, php-format
 msgid ""
 "You need to have a connection to the Twitter API to make it possible to post "
 "automaticly onto Twitter:<br><ol><strong><li>Apply for a Developer Account "
 "at <a href=\"https://developer.twitter.com/\">Twitter</a></li><li>Register "
-"this site as an application on <a href=\"https://developer.twitter."
-"com/en/apps\">Registration for Applications</a>.</li></strong><ul><li>Your "
-"App can not include \"Twitter\".</li><li>Your Applicationdescription can be "
+"this site as an application on <a href=\"https://developer.twitter.com/en/"
+"apps\">Registration for Applications</a>.</li></strong><ul><li>Your App can "
+"not include \"Twitter\".</li><li>Your Applicationdescription can be "
 "anything</li><li>Check \"Enable Sign in with Twitter\".</li><li>The WebSite "
-"and Callback URL should be:"
+"and Callback URL should be: <a href=\"%1$s\">%2$s</a></ul><strong><li>Get "
+"the API and Access Tokens and Secrets and copy them into the Fields below.</"
+"li></strong></ol>"
 msgstr ""
 "Du musst eine Verbindung zur Twitter API aufbauen, um es möglich zu machen "
 "autmatisch auf Twitter zu posten:<br><ol><strong><li>Erstelle einen "
-"Entwickler Account auf <a href=\"https://developer.twitter.com/\">Twitter</a>"
-"</li><li>Registriere diese Seite als App auf <a href=\"https://developer."
-"twitter.com/en/apps\">Registrierung für Applikationen</a>.</li></strong><ul>"
-"<li>Der Name darf nicht \"Twitter\" enthalten.</li><li>Die Beschreibung kann "
-"alles sein.</li><li>Setze den Haken bei \"Erlaube das Einloggen über "
-"Twitter\"</li><li>Die WebSite und CallBack URL sollten folgendes sein:"
-
-#: admin/class-studio-link-integration-settings.php:77
-msgid ""
-"</ul><strong><li>Get the API and Access Tokens and Secrets and copy them "
-"into the Fields below.</li></strong></ol>"
-msgstr ""
-"</ul><strong><li>Hole dir dir den API Key, API Key Secret,Token und Token "
-"Secrets kopiere sie in die Felder unten.</li></strong></ol>"
+"Entwickler Account auf <a href=\"https://developer.twitter.com/\">Twitter</"
+"a></li><li>Registriere diese Seite als App auf <a href=\"https://developer."
+"twitter.com/de/apps\">Registrierung für Applikationen</a>.</li></"
+"strong><ul><li>Der Name darf nicht \"Twitter\" enthalten.</li><li>Die "
+"Beschreibung kann alles sein.</li><li>Setze den Haken bei \"Erlaube das "
+"Einloggen über Twitter\"</li><li>Die WebSite und CallBack URL sollten "
+"folgendes sein: <a href=\"%1$s\">%2$s</a></ul><strong><li>Hole dir dir den "
+"API Key, API Key Secret,Token und Token Secrets kopiere sie in die Felder "
+"unten.</li></strong></ol>"
 
 #: admin/class-studio-link-integration-settings.php:80
 msgid "Twitter Posting"
@@ -153,11 +152,11 @@ msgid "My podcast $podcast_name is now offline! See you again next time!"
 msgstr ""
 "Mein Podcast $podcast_name is jetzt offline! Wir sehen uns das nächste mal!"
 
-#: admin/class-studio-link-integration-settings.php:169 
-#: admin/class-studio-link-integration-settings.php:188 
-#: admin/class-studio-link-integration-settings.php:207 
-#: admin/class-studio-link-integration-settings.php:226 
-#: admin/class-studio-link-integration-settings.php:245 
+#: admin/class-studio-link-integration-settings.php:169
+#: admin/class-studio-link-integration-settings.php:188
+#: admin/class-studio-link-integration-settings.php:207
+#: admin/class-studio-link-integration-settings.php:226
+#: admin/class-studio-link-integration-settings.php:245
 #: admin/class-studio-link-integration-settings.php:264
 msgid "This is the Post that will get Tweeted."
 msgstr "Das ist der Text, der getweetet wird."
@@ -178,7 +177,7 @@ msgstr "Diese Option lässt dich etwas Posten, wenn dein Podcast online geht."
 msgid "Online Post Text"
 msgstr "Online Post Text"
 
-#: admin/class-studio-link-integration-settings.php:187 
+#: admin/class-studio-link-integration-settings.php:187
 #: admin/class-studio-link-integration-settings.php:225
 msgid "We`re online now! Visit $url to join us!"
 msgstr "Wir sind jetzt Online! Komm auf $url, um dabei zu sein!"
@@ -269,22 +268,25 @@ msgstr "Break Post Text"
 msgid "Just a little break at $podcast_name - We`re back in no time!"
 msgstr "Wir machen nur eine kleine Pause! Wir sind bald wieder für euch da!"
 
-#. Name of the plugin
-msgid "Studio Link Integration"
-msgstr "Studio Link Integration"
+#~ msgid ""
+#~ "</ul><strong><li>Get the API and Access Tokens and Secrets and copy them "
+#~ "into the Fields below.</li></strong></ol>"
+#~ msgstr ""
+#~ "</ul><strong><li>Hole dir dir den API Key, API Key Secret,Token und Token "
+#~ "Secrets kopiere sie in die Felder unten.</li></strong></ol>"
 
-#. Description of the plugin
-msgid "This Plugin integrates Studio Link into your Wordpress installation."
-msgstr "Dieses Plugin integriert Studio Link in deine Wordpress Installation."
+#~ msgid "Studio Link Integration"
+#~ msgstr "Studio Link Integration"
 
-#. URI of the plugin
-msgid "https://sendegate.de/t/wordpress-studio-link-integration/8416"
-msgstr "https://sendegate.de/t/wordpress-studio-link-integration/8416"
+#~ msgid "This Plugin integrates Studio Link into your Wordpress installation."
+#~ msgstr ""
+#~ "Dieses Plugin integriert Studio Link in deine Wordpress Installation."
 
-#. Author of the plugin
-msgid "Nicolas Mierbach"
-msgstr "Nicolas Mierbach"
+#~ msgid "https://sendegate.de/t/wordpress-studio-link-integration/8416"
+#~ msgstr "https://sendegate.de/t/wordpress-studio-link-integration/8416"
 
-#. Author URI of the plugin
-msgid "https://github.com/dev-nm/WP-StudioLink-Integration"
-msgstr "https://github.com/dev-nm/WP-StudioLink-Integration"
+#~ msgid "Nicolas Mierbach"
+#~ msgstr "Nicolas Mierbach"
+
+#~ msgid "https://github.com/dev-nm/WP-StudioLink-Integration"
+#~ msgstr "https://github.com/dev-nm/WP-StudioLink-Integration"

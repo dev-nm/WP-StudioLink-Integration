@@ -34,6 +34,8 @@ class Studio_Link_Integration_i18n {
 	 * @var      string    $domain    The domain identifier for this plugin.
 	 */
 	private $domain;
+	
+	private $titan_domain;
 
 	/**
 	 * Load the plugin text domain for translation.
@@ -49,6 +51,21 @@ class Studio_Link_Integration_i18n {
 		);
 
 	}
+	
+	/**
+	 * Load the plugin text domain for the titan translation.
+	 *
+	 * @since    1.0.2
+	 */
+	public function load_titan_textdomain() {
+
+		load_plugin_textdomain(
+			$this->titan_domain,
+			false,
+			dirname( plugin_basename( __DIR__ ) ) . '/admin/titan-framework/languages/'
+		);
+
+	}
 
 	/**
 	 * Set the domain equal to that of the specified domain.
@@ -58,6 +75,16 @@ class Studio_Link_Integration_i18n {
 	 */
 	public function set_domain( $domain ) {
 		$this->domain = $domain;
+	}
+	
+	/**
+	 * Set the domain equal to that of the specified domain.
+	 *
+	 * @since    1.0.2
+	 * @param    string    $domain    The domain that represents the locale of this plugin.
+	 */
+	public function set_titan_domain( $domain ) {
+		$this->titan_domain = $domain;
 	}
 
 }
