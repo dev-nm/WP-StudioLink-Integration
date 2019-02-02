@@ -95,7 +95,7 @@ class Studio_Link_Integration_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/studio-link-integration-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( 'stli_admin_css', plugin_dir_url( __FILE__ ) . 'css/studio-link-integration-admin.css');
 
 	}
 
@@ -118,7 +118,7 @@ class Studio_Link_Integration_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/studio-link-integration-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( 'stl_admin_js', plugin_dir_url( __FILE__ ) . 'js/studio-link-integration-admin.js', array( 'jquery' ));
 
 	}
 
