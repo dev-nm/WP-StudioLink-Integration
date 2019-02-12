@@ -135,9 +135,9 @@ class Studio_Link_Integration_Public {
 	 * @since    1.0.0
 	 */
 	function studioLink_Integration_Shortcode( $atts, $content ) {
-		//Prüfe ob Shortcodes Aktiviert sind
-		$titan = TitanFramework::getInstance( 'stli' );
-		if($titan->getOption( 'shortcodes_enabled' )){
+		//Test if Shortcodes are activated
+		$general = get_option( 'stli_general' );
+		if( $general['stli_enable_shortcodes'] ){
 			// Speichere Übergabewerte
 			$_atts = shortcode_atts( array(
 				'online' => NULL,
@@ -188,6 +188,4 @@ class Studio_Link_Integration_Public {
 		}
 	}
 	
-
-
 }
