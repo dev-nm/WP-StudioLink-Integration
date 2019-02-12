@@ -156,6 +156,10 @@ class Studio_Link_Integration {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
+		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_settings, 'load_loaf_dependencies' );
+		
+		$this->loader->add_action( 'admin_menu', $plugin_settings, 'stli_create_settings' );
+		$this->loader->add_action( 'admin_init', $plugin_settings, 'stli_setup_settings' );
 	}
 
 	/**
