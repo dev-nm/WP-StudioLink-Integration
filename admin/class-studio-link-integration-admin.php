@@ -108,6 +108,4 @@ class Studio_Link_Integration_Admin {
 
 	}
 
-
-
 }

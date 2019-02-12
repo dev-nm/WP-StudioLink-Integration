@@ -1,0 +1,204 @@
+.lof_table{
+	width:100%;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.lof_table .wrap h1{
+	font-weight: bold;
+}
+.lof_table .wrap h2{
+   margin-bottom:7px;
+ }
+.lof_table .wrap table{
+    background-color: white;
+}
+.lof_table .wrap .form-table{
+  margin-bottom: .5em;
+}
+.lof_table .wrap th, td {
+  border-bottom: 1px solid #ddd;
+}
+.lof_table .wrap .form-table td{
+    padding: 10px 10px 10px 10px;
+}
+.lof_table .wrap table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 15px;
+}
+.lof_table .wrap .form-table{
+  margin-top:0px;
+}
+.lof_table .wrap th:before{
+  content: "   ";
+  white-space: pre;
+}
+.lof_table .wrap tr:nth-child(even) {
+    background-color: #f9f9f9;
+ }
+.lof_table .counter {
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.lof_table .status-box{
+	resize:none;
+	overflow:hidden;
+}
+
+.lof_table_menu {
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+}
+.lof_table_menu .vertical-menu {
+	min-width: 200px;
+	max-width: 250px;
+	float:left;
+	padding: 53px 0px 10px 0px;
+	border-right: 1px solid #ccc;
+	margin: 0;
+	line-height: inherit;
+}
+
+.lof_table_menu .vertical-menu a {
+	display: block;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	border-right: none;
+	margin-left: .5em;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	background: #e5e5e5;
+	color: #555;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.lof_table_menu .vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.lof_table_menu .vertical-menu a.active {
+	border-right: 1px solid #f1f1f1;
+	background: #f1f1f1;
+	color: #000;
+	margin-right:-1px;
+}
+
+
+.lof_table .content{
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	box-shadow: 
+	float:left;
+	padding-left:10px;
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+}
+
+.lof_table .flipswitch{
+  position: relative;
+  width: 86px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select: none;
+}
+.lof_table .flipswitch input[type=checkbox] {
+  display: none;
+}
+.lof_table .flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-radius: 10px;
+}
+.lof_table .flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -ms-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.lof_table .flipswitch-inner:before, .flipswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 20px;
+  padding: 0;
+  line-height: 20px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.lof_table .flipswitch-inner:before {
+  content: "ON";
+  padding-left: 12px;
+  background-color: #FF7E00;
+  color: #FFFFFF;
+}
+.lof_table .flipswitch-inner:after {
+  content: "OFF";
+  padding-right: 12px;
+  background-color: #FFFFFF;
+  color: #888888;
+  text-align: right;
+}
+.lof_table .flipswitch-switch {
+  width: 26px;
+  margin: -3px;
+  background: #FFFFFF;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 64px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -moz-transition: all 0.3s ease-in 0s;
+  -ms-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.lof_table .flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
+  margin-left: 0;
+}
+.lof_table .flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
+  right: 0;
+}
+
+.lof_table .button {
+	background: #FF7E00;
+    border-color: #999999;
+    box-shadow: 0 1px 0 #999999;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #999999, 1px 0 1px #999999, 0 1px 1px #999999, -1px 0 1px #999999;
+}
+.lof_table .button:hover, .lof_table .button:focus{
+	background: #ff8c1a;
+    border-color: #999999;
+}
+.lof_table .button:active {
+	background: #e67300;
+    border-color: #999999;
+    box-shadow: inset 0 2px 0 #999999;
+    vertical-align: top;
+}
+.lof_table .button:focus {
+	box-shadow: 0 1px 0 #999999, 0 0 2px 1px #999999;
+}
