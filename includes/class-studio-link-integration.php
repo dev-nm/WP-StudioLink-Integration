@@ -112,11 +112,6 @@ class Studio_Link_Integration {
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-studio-link-integration-admin.php';
-		
-		/**
-		 * The Titan Framework responsible for the admin menu.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/titan-framework/titan-framework-embedder.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
@@ -141,10 +136,8 @@ class Studio_Link_Integration {
 
 		$plugin_i18n = new Studio_Link_Integration_i18n();
 		$plugin_i18n->set_domain( 'studio-link-integration' );
-		$plugin_i18n->set_titan_domain( 'titan-framework' );
 
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
-		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_titan_textdomain' );
 
 	}
 
@@ -162,8 +155,6 @@ class Studio_Link_Integration {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-		
-		$this->loader->add_action( 'tf_create_options', $plugin_settings, 'stli_create_options' );
 
 	}
 
