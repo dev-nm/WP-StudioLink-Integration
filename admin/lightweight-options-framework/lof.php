@@ -226,3 +226,4 @@ class Lightweight_Options_Framework {
 			}
 		}
 	}
+}
