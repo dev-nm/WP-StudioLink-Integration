@@ -25,7 +25,7 @@
 			$(this).parent().children(".counter").text(charactersleft);
 			$(this).css('height','auto');
 			$(this).height(this.scrollHeight);
-		})
+		});
 
 	};
 	
