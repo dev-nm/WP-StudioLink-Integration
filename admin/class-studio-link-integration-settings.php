@@ -333,11 +333,11 @@ As example:<br>
 <strong>[StudioLink]</strong> This has the exact same effect as online="true". <strong>[/StudioLink]</strong><br>
 <strong>[StudioLink status="Preshow"]</strong> This Text is only shown, if your Podcast is in the "Preshow" state. <strong>[/StudioLink]</strong><br>
 <br>
-There are the following Options:
+There are the following Options:<br>
 Online: true / false<br>
 Status: offline / preshow / live / postshow / break / online<br>
 <br>
-The Podcast that is being watched is detemined by the Studio Link Slug, you set in the <strong>General Options</strong>.', 'studio-link-integration' ),
+The Podcast that is being watched is detemined by the Studio Link Slug, you set in the <strong>General Options</strong>.<br>If you want to use another slug, you can set it in the Shortcode: <strong>[StudioLink slug="myteststream" online="true"]The Podcast with the slug "mysteststream" is online![/StudioLink]', 'studio-link-integration' ),
 			),
 		);
 		
