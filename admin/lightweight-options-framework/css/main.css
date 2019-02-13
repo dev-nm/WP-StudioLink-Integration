@@ -202,3 +202,54 @@
 .lof_table .button:focus {
 	box-shadow: 0 1px 0 #999999, 0 0 2px 1px #999999;
 }
+
+@media only screen and (max-width: 1215px) {
+	.lof_table_menu {
+		width:100%;
+		border-bottom: 1px solid #ccc;
+		margin-right:10px;
+	}
+	.lof_table_menu .vertical-menu {
+		min-width: none;
+		max-width: none;
+		padding: 10px 0px 0px 0px;
+		border-right: none;
+		margin-bottom:-1px;
+		padding-right:10px;
+		width:100%;
+	}
+
+	.lof_table_menu .vertical-menu a {
+		display: block;
+		text-decoration: none;
+		border: 1px solid #ccc;
+		border-bottom: none;
+		margin-left: .5em;
+		padding: 5px 10px;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 600;
+		background: #e5e5e5;
+		color: #555;
+		text-decoration: none;
+		white-space: nowrap;
+		float:left;
+	}
+
+	.lof_table_menu .vertical-menu a.active {
+		border: 1px solid #ccc;
+		border-bottom: 1px solid #f1f1f1;
+	}
+
+	.lof_table .content{
+		border: 1px solid #ccc;
+		border-top: none;
+		padding-right:10px;
+		margin-right:10px;
+		width:100%;
+	}
+	.lof_table .content .wrap{
+		width:100%;
+		margin-right:0px;
+	}
+}
