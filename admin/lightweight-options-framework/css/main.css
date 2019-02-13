@@ -97,12 +97,12 @@
 .lof_table .content{
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
-	box-shadow: 
 	float:left;
 	padding-left:10px;
 	display: -webkit-flex; 
 	display: -ms-flexbox; 
 	display: flex;
+	max-width: calc(100% - 250px);
 }
 
 .lof_table .flipswitch{
@@ -247,6 +247,7 @@
 		padding-right:10px;
 		margin-right:10px;
 		width:100%;
+		max-width: none;
 	}
 	.lof_table .content .wrap{
 		width:100%;
