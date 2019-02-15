@@ -65,7 +65,7 @@ class Lightweight_Options_Framework {
 	public function create_menus(){
 		$menus = $this->menus;
 		$callback = null;
-		foreach( $menus as $menu ){
+		foreach( (array)$menus as $menu ){
 			if( $menu['type'] == 'menu' ){
 				if( isset( $menu['callback'] ) ) {
 					$callback = $menu['callback'];
@@ -91,7 +91,7 @@ class Lightweight_Options_Framework {
 	
 	public function create_sections() {
 		$sections = $this->sections;
-		foreach( $sections as $section){
+		foreach( (array)$sections as $section){
 			add_settings_section( $section['id'], $section['title'], $section['callback'], $section['page'] );
 		}
 	}
@@ -100,7 +100,7 @@ class Lightweight_Options_Framework {
 		$fields = $this->fields;
 		$sections = $this->sections;
 		$groups = array();
-		foreach( $sections as $section){
+		foreach( (array)$sections as $section){
 			foreach( $fields as $field ){
 				if( $field['section'] == $section['id'] ){
 					add_settings_field( $field['id'], $field['label'], array( $this, 'field_callback' ), $section['page'], $field['section'], $field );
