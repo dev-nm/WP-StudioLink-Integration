@@ -84,18 +84,11 @@ class Studio_Link_Integration_Admin {
 	public function enqueue_styles() {
 
 		/**
-		 * This function is provided for demonstration purposes only.
-		 *
-		 * An instance of this class should be passed to the run() function
-		 * defined in Studio_Link_Integration_Loader as all of the hooks are defined
-		 * in that particular class.
-		 *
-		 * The Studio_Link_Integration_Loader will then create the relationship
-		 * between the defined hooks and the functions defined in this
-		 * class.
+		 * Getting the actual date and time of the last change of the CSS to generate a version number.
+		 * This has the advantage, that a change in sourcecode is instantly visible on the website.
 		 */
-
-		wp_enqueue_style( 'stli_admin_css', plugin_dir_url( __FILE__ ) . 'css/studio-link-integration-admin.css');
+		$my_css_ver  = date("ymd-Gis", filemtime( plugin_dir_path( __FILE__ ) . 'css/studio-link-integration-admin.css' ));
+		wp_enqueue_style( 'stli_admin_css', plugin_dir_url( __FILE__ ) . 'css/studio-link-integration-admin.css', array(), $my_css_ver);
 
 	}
 
@@ -107,21 +100,12 @@ class Studio_Link_Integration_Admin {
 	public function enqueue_scripts() {
 
 		/**
-		 * This function is provided for demonstration purposes only.
-		 *
-		 * An instance of this class should be passed to the run() function
-		 * defined in Studio_Link_Integration_Loader as all of the hooks are defined
-		 * in that particular class.
-		 *
-		 * The Studio_Link_Integration_Loader will then create the relationship
-		 * between the defined hooks and the functions defined in this
-		 * class.
+		 * Getting the actual date and time of the last change of the CSS to generate a version number.
+		 * This has the advantage, that a change in sourcecode is instantly visible on the website.
 		 */
-
-		wp_enqueue_script( 'stl_admin_js', plugin_dir_url( __FILE__ ) . 'js/studio-link-integration-admin.js', array( 'jquery' ));
+		$my_js_ver  = date("ymd-Gis", filemtime( plugin_dir_path( __FILE__ ) . 'js/studio-link-integration-admin.js' ));
+		wp_enqueue_script( 'stl_admin_js', plugin_dir_url( __FILE__ ) . 'js/studio-link-integration-admin.js', array( 'jquery' ), $my_js_ver);
 
 	}
-
-
 
 }

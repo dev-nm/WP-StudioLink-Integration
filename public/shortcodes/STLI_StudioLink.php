@@ -8,12 +8,9 @@ class STLI_StudioLink{
 	public $listeners;
 	public $name;
 	
-	private $titan;
-	
 	function __construct($studioLinkSlug = NULL){
-		$this->titan = TitanFramework::getInstance( 'stli' );
 		if(empty($studioLinkSlug)){
-			$this->studioLinkSlug = $this->titan->getOption( 'studiolink_slug' );
+			$this->studioLinkSlug = get_option( 'stli_general' )['stli_slug'];
 		} else {
 			$this->studioLinkSlug = $studioLinkSlug;
 		}

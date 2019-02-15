@@ -76,15 +76,5 @@ class Studio_Link_Integration_i18n {
 	public function set_domain( $domain ) {
 		$this->domain = $domain;
 	}
-	
-	/**
-	 * Set the domain equal to that of the specified domain.
-	 *
-	 * @since    1.0.2
-	 * @param    string    $domain    The domain that represents the locale of this plugin.
-	 */
-	public function set_titan_domain( $domain ) {
-		$this->titan_domain = $domain;
-	}
 
 }
