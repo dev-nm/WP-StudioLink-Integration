@@ -121,42 +121,42 @@ class STLI_Admin_Settings {
 			),
 			array(
 				'id' => 'stli_social_twitter_offline_section',
-				'title' => __('Offline Post', 'studio-link-integration' ),
+				'title' => __('Post when Offline', 'studio-link-integration' ),
 				'callback' => array(),
 				'page' => 'stli_social_twitter_settings',
 				'option_get' => 'stli_social_twitter',
 			),
 			array(
 				'id' => 'stli_social_twitter_online_section',
-				'title' => __('Online Post', 'studio-link-integration' ),
+				'title' => __('Post when Online', 'studio-link-integration' ),
 				'callback' => array(),
 				'page' => 'stli_social_twitter_settings',
 				'option_get' => 'stli_social_twitter',
 			),
 			array(
 				'id' => 'stli_social_twitter_preshow_section',
-				'title' => __('Preshow', 'studio-link-integration' ),
+				'title' => __('Post when Preshow', 'studio-link-integration' ),
 				'callback' => array(),
 				'page' => 'stli_social_twitter_settings',
 				'option_get' => 'stli_social_twitter',
 			),
 			array(
 				'id' => 'stli_social_twitter_live_section',
-				'title' => __('Live', 'studio-link-integration' ),
+				'title' => __('Post when Live', 'studio-link-integration' ),
 				'callback' => array(),
 				'page' => 'stli_social_twitter_settings',
 				'option_get' => 'stli_social_twitter',
 			),
 			array(
 				'id' => 'stli_social_twitter_postshow_section',
-				'title' => __('Postshow', 'studio-link-integration' ),
+				'title' => __('Post when Postshow', 'studio-link-integration' ),
 				'callback' => array(),
 				'page' => 'stli_social_twitter_settings',
 				'option_get' => 'stli_social_twitter',
 			),
 			array(
 				'id' => 'stli_social_twitter_break_section',
-				'title' => __('Break', 'studio-link-integration' ),
+				'title' => __('Post when Break', 'studio-link-integration' ),
 				'callback' => array(),
 				'page' => 'stli_social_twitter_settings',
 				'option_get' => 'stli_social_twitter',
@@ -177,7 +177,7 @@ class STLI_Admin_Settings {
 				'id' => 'stli_slug',
 				'type' => 'text',
 				'section' => 'stli_general_section',
-				'desc' => __( 'The Studio Link Slug, you can set in the Studio Link On Air Options.', 'studio-link-integration' ),
+				'desc' => __( 'You can set the Studio Link Slug in the options of this plugin.', 'studio-link-integration' ),
 				'default' => '',
 			),
 			array(
@@ -185,7 +185,7 @@ class STLI_Admin_Settings {
 				'id' => 'stli_enable_shortcodes',
 				'type' => 'switch',
 				'section' => 'stli_general_section',
-				'desc' => __( 'Turns the ShortCodes on or off.', 'studio-link-integration' ),
+				'desc' => __( 'Turns the shortcodes on or off.', 'studio-link-integration' ),
 				'default' => '1',
 			),
 			array(
@@ -193,7 +193,7 @@ class STLI_Admin_Settings {
 				'id' => 'stli_status_caching',
 				'type' => 'number',
 				'section' => 'stli_general_section',
-				'desc' => __('This sets the time after wich the Status is rechecked. Set 0 to disable Caching.', 'studio-link-integration' ),
+				'desc' => __('This sets the time after which the status of Studio Link is rechecked (in seconds). Set 0 to disable caching.', 'studio-link-integration' ),
 				'default' => '60',
 			),
 			
@@ -224,12 +224,12 @@ class STLI_Admin_Settings {
 			),
 			
 			array(
-				'label' => __('Enable Offline Post', 'studio-link-integration' ),
+				'label' => __('Enable posting', 'studio-link-integration' ),
 				'id' => 'twitter_enable_offline',
 				'type' => 'switch',
 				'section' => 'stli_social_twitter_offline_section',
 				'default' => '',
-				'desc' => __( 'This lets you post something if the Podcast goes Offline.', 'studio-link-integration' ),
+				'desc' => __( 'This lets you post something when the podcast goes offline.', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Offline Text', 'studio-link-integration' ),
@@ -239,12 +239,12 @@ class STLI_Admin_Settings {
 				'default' => __('My podcast $podcast_name is now offline! See you again next time!', 'studio-link-integration' ),
 			),
 			array(
-				'label' => __('Enable Online Post', 'studio-link-integration' ),
+				'label' => __('Enable posting', 'studio-link-integration' ),
 				'id' => 'twitter_enable_online',
 				'type' => 'switch',
 				'section' => 'stli_social_twitter_online_section',
 				'default' => '',
-				'desc' => __( 'This lets you post something if the Podcast goes Online.', 'studio-link-integration' ),
+				'desc' => __( 'This lets you post something when the podcast goes online.', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Online Text', 'studio-link-integration' ),
@@ -254,12 +254,12 @@ class STLI_Admin_Settings {
 				'default' => __('We`re online now! Visit $url to join us!', 'studio-link-integration' ),
 			),
 			array(
-				'label' => __('Enable Preshow Post', 'studio-link-integration' ),
+				'label' => __('Enable posting', 'studio-link-integration' ),
 				'id' => 'twitter_enable_preshow',
 				'type' => 'switch',
 				'section' => 'stli_social_twitter_preshow_section',
 				'default' => '0',
-				'desc' => __( 'This lets you post something if the Podcast goes into the Preshow state.', 'studio-link-integration' ),
+				'desc' => __( 'This lets you post something when the podcast goes into the "Preshow" state.', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Preshow Text', 'studio-link-integration' ),
@@ -269,12 +269,12 @@ class STLI_Admin_Settings {
 				'default' => __('We`re just preparing for $podcast_name . Join us at $url so you dont miss anything!', 'studio-link-integration' ),
 			),
 			array(
-				'label' => __('Enable Live Post', 'studio-link-integration' ),
+				'label' => __('Enable posting', 'studio-link-integration' ),
 				'id' => 'twitter_enable_live',
 				'type' => 'switch',
 				'section' => 'stli_social_twitter_live_section',
 				'default' => '',
-				'desc' => __( 'This lets you post something if the Podcast goes Live.', 'studio-link-integration' ),
+				'desc' => __( 'This lets you post something when the podcast goes Live.', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Live Text', 'studio-link-integration' ),
@@ -284,12 +284,12 @@ class STLI_Admin_Settings {
 				'default' => __('We`re online now! Visit $url to join us!', 'studio-link-integration' ),
 			),
 			array(
-				'label' => __('Enable Postshow Post', 'studio-link-integration' ),
+				'label' => __('Enable posting', 'studio-link-integration' ),
 				'id' => 'twitter_enable_postshow',
 				'type' => 'switch',
 				'section' => 'stli_social_twitter_postshow_section',
 				'default' => '',
-				'desc' => __( 'This lets you post something if the Podcast goes into the Postshow state.', 'studio-link-integration' ),
+				'desc' => __( 'This lets you post something when the podcast goes into the "Postshow" state.', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Postshow Text', 'studio-link-integration' ),
@@ -299,12 +299,12 @@ class STLI_Admin_Settings {
 				'default' => __('Show is over, but we`re still here for you and your questions at $url!', 'studio-link-integration' ),
 			),
 			array(
-				'label' => __('Enable Break Post', 'studio-link-integration' ),
+				'label' => __('Enable posting', 'studio-link-integration' ),
 				'id' => 'twitter_enable_break',
 				'type' => 'switch',
 				'section' => 'stli_social_twitter_break_section',
 				'default' => '',
-				'desc' => __( 'This lets you post something if the Podcast has a Break.', 'studio-link-integration' ),
+				'desc' => __( 'This lets you post something when the podcast has a break.', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Break Text', 'studio-link-integration' ),
@@ -319,25 +319,25 @@ class STLI_Admin_Settings {
 				'id' => 'help_general',
 				'type' => 'custom',
 				'section' => 'help_section',
-				'value' => __('This Plugin is made to integrate Studio Link into your Wordpress Installation.<br>Currenty the following features are supported:', 'studio-link-integration' ),
+				'value' => __('This Plugin integrates your Studio Link-Stream into your WordPress installation.<br>Currently the following features are supported:', 'studio-link-integration' ),
 			),
 			array(
 				'label' => __('Shortcodes' ,'studio-link-integration' ),
 				'id' => 'help_shortcodes',
 				'type' => 'custom',
 				'section' => 'help_section',
-				'value' => __('Short Codes are making you able, to use custom code on your pages that is being only loaded if your Podcast ist in a certain state.<br>
-As example:<br>
+				'value' => __('Shortcodes can be used to place custom code on your pages, that is being only loaded, when your podcast is in a certain state.<br>
+Some examples:<br>
 <br>
-<strong>[StudioLink online="true"]</strong> This text is only shown if you`re Podcast is in the Preshow, Live or Postshow state.<strong>[/StudioLink]</strong><br>
-<strong>[StudioLink]</strong> This has the exact same effect as online="true". <strong>[/StudioLink]</strong><br>
-<strong>[StudioLink status="Preshow"]</strong> This Text is only shown, if your Podcast is in the "Preshow" state. <strong>[/StudioLink]</strong><br>
+<strong>[StudioLink online="true"]</strong> This text is only shown, when your podcast is in the "Preshow", "Live" or "Postshow" state. <strong>[/StudioLink]</strong><br>
+<strong>[StudioLink]</strong> This has the exact same effect like online="true". <strong>[/StudioLink]</strong><br>
+<strong>[StudioLink status="Preshow"]</strong> This text is only shown, when your podcast is in the "Preshow" state. <strong>[/StudioLink]</strong><br>
 <br>
-There are the following Options:<br>
+You can use the following parameters:<br>
 Online: true / false<br>
 Status: offline / preshow / live / postshow / break / online<br>
 <br>
-The Podcast that is being watched is detemined by the Studio Link Slug, you set in the <strong>General Options</strong>.<br>If you want to use another slug, you can set it in the Shortcode: <strong>[StudioLink slug="myteststream" online="true"]The Podcast with the slug "mysteststream" is online![/StudioLink]', 'studio-link-integration' ),
+The podcast that is being monitored, is detemined by the Studio Link Slug, you set in the <strong>General Options</strong>.<br>If you want to use another slug, you can set it in the Shortcode: <strong>[StudioLink slug="myteststream" online="true"]The Podcast with the slug "myteststream" is online![/StudioLink]', 'studio-link-integration' ),
 			),
 		);
 		
@@ -362,7 +362,7 @@ The Podcast that is being watched is detemined by the Studio Link Slug, you set 
 	?>
 		<table class="form-table">
 			<tr>
-				<td><?php printf(__( 'You need to have a connection to the Twitter API to make it possible to post automaticly onto Twitter:<br><ol><strong><li>Apply for a Developer Account at <a href="https://developer.twitter.com/">Twitter</a></li><li>Register this site as an application on <a href="https://developer.twitter.com/en/apps">Registration for Applications</a>.</li></strong><ul><li>Your App can not include "Twitter".</li><li>Your Applicationdescription can be anything</li><li>Check "Enable Sign in with Twitter".</li><li>The WebSite and Callback URL should be: <a href="%1$s">%2$s</a></ul><strong><li>Get the API and Access Tokens and Secrets and copy them into the Fields below.</li></strong></ol>', 'studio-link-integration' ), home_url(), home_url()); ?></td>
+				<td><?php printf(__( 'You need to have a connection to the Twitter API to get the automated publishing to work:<br><ol><strong><li>Apply for a Developer Account at <a href="https://developer.twitter.com/">Twitter</a></li><li>Register this site as an application on <a href="https://developer.twitter.com/en/apps">Registration for Applications</a>.</li></strong><ul><li>Your App may not include the term "Twitter".</li><li>Your Application Description can be anything</li><li>Check "Enable Sign in with Twitter".</li><li>The Website and Callback URL should be: <a href="%1$s">%2$s</a></ul><strong><li>Get the API, Access Tokens and Secrets. Paste them into the Fields below.</li></strong></ol>', 'studio-link-integration' ), home_url(), home_url()); ?></td>
 			</tr>
 		</table>
 	<?php
@@ -392,7 +392,7 @@ The Podcast that is being watched is detemined by the Studio Link Slug, you set 
 			<?php 
 				settings_errors(); 
 				$active_tab = isset( $_GET[ 'tab' ] ) ? $_GET[ 'tab' ] : 'api_section';
-				printf(__( 'This Area is still under heavy construction! None of the Options will Work in the realeased Version %s!', 'studio-link-integration' ), $this->version);
+				printf(__( 'This area is still under heavy construction! None of the options will work in the most current version %s!', 'studio-link-integration' ), $this->version);
 			?>
 			</div>
 			

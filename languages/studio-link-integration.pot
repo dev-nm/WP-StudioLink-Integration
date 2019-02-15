@@ -2,26 +2,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: studio-link-integration\n"
-"POT-Creation-Date: 2019-02-13 08:20+0000\n"
+"POT-Creation-Date: 2019-02-15 13:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: admin/titan-framework\n"
-"Language: "
 
 #: admin/class-studio-link-integration-settings.php:79
 msgid "Studio Link"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:80 
+#: admin/class-studio-link-integration-settings.php:80
 #: admin/class-studio-link-integration-settings.php:318
 msgid "General"
 msgstr ""
@@ -30,7 +29,7 @@ msgstr ""
 msgid "General Settings"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:90 
+#: admin/class-studio-link-integration-settings.php:90
 #: admin/class-studio-link-integration-settings.php:390
 msgid "Social Media Settings"
 msgstr ""
@@ -39,34 +38,34 @@ msgstr ""
 msgid "Social Media"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:99 
-#: admin/class-studio-link-integration-settings.php:100 
+#: admin/class-studio-link-integration-settings.php:99
+#: admin/class-studio-link-integration-settings.php:100
 #: admin/class-studio-link-integration-settings.php:429
 msgid "Help"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:124
-msgid "Offline Post"
+msgid "Post when Offline"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:131
-msgid "Online Post"
+msgid "Post when Online"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:138
-msgid "Preshow"
+msgid "Post when Preshow"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:145
-msgid "Live"
+msgid "Post when Live"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:152
-msgid "Postshow"
+msgid "Post when Postshow"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:159
-msgid "Break"
+msgid "Post when Break"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:176
@@ -74,7 +73,7 @@ msgid "Studio Link Slug"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:180
-msgid "The Studio Link Slug, you can set in the Studio Link On Air Options."
+msgid "You can set the Studio Link Slug in the options of this plugin."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:184
@@ -82,7 +81,7 @@ msgid "Enable Shortcodes"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:188
-msgid "Turns the ShortCodes on or off."
+msgid "Turns the shortcodes on or off."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:192
@@ -91,8 +90,8 @@ msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:196
 msgid ""
-"This sets the time after wich the Status is rechecked. Set 0 to disable "
-"Caching."
+"This sets the time after which the status of Studio Link is rechecked (in "
+"seconds). Set 0 to disable caching."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:201
@@ -112,11 +111,16 @@ msgid "Twitter Token Secret"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:227
-msgid "Enable Offline Post"
+#: admin/class-studio-link-integration-settings.php:242
+#: admin/class-studio-link-integration-settings.php:257
+#: admin/class-studio-link-integration-settings.php:272
+#: admin/class-studio-link-integration-settings.php:287
+#: admin/class-studio-link-integration-settings.php:302
+msgid "Enable posting"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:232
-msgid "This lets you post something if the Podcast goes Offline."
+msgid "This lets you post something when the podcast goes offline."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:235
@@ -127,30 +131,23 @@ msgstr ""
 msgid "My podcast $podcast_name is now offline! See you again next time!"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:242
-msgid "Enable Online Post"
-msgstr ""
-
 #: admin/class-studio-link-integration-settings.php:247
-msgid "This lets you post something if the Podcast goes Online."
+msgid "This lets you post something when the podcast goes online."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:250
 msgid "Online Text"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:254 
+#: admin/class-studio-link-integration-settings.php:254
 #: admin/class-studio-link-integration-settings.php:284
 msgid "We`re online now! Visit $url to join us!"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:257
-msgid "Enable Preshow Post"
-msgstr ""
-
 #: admin/class-studio-link-integration-settings.php:262
 msgid ""
-"This lets you post something if the Podcast goes into the Preshow state."
+"This lets you post something when the podcast goes into the \"Preshow\" "
+"state."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:265
@@ -163,25 +160,18 @@ msgid ""
 "anything!"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:272
-msgid "Enable Live Post"
-msgstr ""
-
 #: admin/class-studio-link-integration-settings.php:277
-msgid "This lets you post something if the Podcast goes Live."
+msgid "This lets you post something when the podcast goes Live."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:280
 msgid "Live Text"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:287
-msgid "Enable Postshow Post"
-msgstr ""
-
 #: admin/class-studio-link-integration-settings.php:292
 msgid ""
-"This lets you post something if the Podcast goes into the Postshow state."
+"This lets you post something when the podcast goes into the \"Postshow\" "
+"state."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:295
@@ -192,12 +182,8 @@ msgstr ""
 msgid "Show is over, but we`re still here for you and your questions at $url!"
 msgstr ""
 
-#: admin/class-studio-link-integration-settings.php:302
-msgid "Enable Break Post"
-msgstr ""
-
 #: admin/class-studio-link-integration-settings.php:307
-msgid "This lets you post something if the Podcast has a Break."
+msgid "This lets you post something when the podcast has a break."
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:310
@@ -210,8 +196,8 @@ msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:322
 msgid ""
-"This Plugin is made to integrate Studio Link into your Wordpress "
-"Installation.<br>Currenty the following features are supported:"
+"This Plugin integrates your Studio Link-Stream into your WordPress "
+"installation.<br>Currently the following features are supported:"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:325
@@ -220,43 +206,43 @@ msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:329
 msgid ""
-"Short Codes are making you able, to use custom code on your pages that is "
-"being only loaded if your Podcast ist in a certain state.<br>\n"
-"As example:<br>\n"
+"Shortcodes can be used to place custom code on your pages, that is being "
+"only loaded, when your podcast is in a certain state.<br>\n"
+"Some examples:<br>\n"
 "<br>\n"
-"<strong>[StudioLink online=\"true\"]</strong> This text is only shown if "
-"you`re Podcast is in the Preshow, Live or Postshow state.<strong>"
-"[/StudioLink]</strong><br>\n"
-"<strong>[StudioLink]</strong> This has the exact same effect as "
-"online=\"true\". <strong>[/StudioLink]</strong><br>\n"
-"<strong>[StudioLink status=\"Preshow\"]</strong> This Text is only shown, if "
-"your Podcast is in the \"Preshow\" state. <strong>[/StudioLink]</strong><br>"
-"\n"
+"<strong>[StudioLink online=\"true\"]</strong> This text is only shown, when "
+"your podcast is in the \"Preshow\", \"Live\" or \"Postshow\" state. "
+"<strong>[/StudioLink]</strong><br>\n"
+"<strong>[StudioLink]</strong> This has the exact same effect like online="
+"\"true\". <strong>[/StudioLink]</strong><br>\n"
+"<strong>[StudioLink status=\"Preshow\"]</strong> This text is only shown, "
+"when your podcast is in the \"Preshow\" state. <strong>[/StudioLink]</"
+"strong><br>\n"
 "<br>\n"
-"There are the following Options:<br>\n"
+"You can use the following parameters:<br>\n"
 "Online: true / false<br>\n"
 "Status: offline / preshow / live / postshow / break / online<br>\n"
 "<br>\n"
-"The Podcast that is being watched is detemined by the Studio Link Slug, you "
-"set in the <strong>General Options</strong>.<br>If you want to use another "
-"slug, you can set it in the Shortcode: <strong>[StudioLink "
-"slug=\"myteststream\" online=\"true\"]The Podcast with the slug "
-"\"mysteststream\" is online![/StudioLink]"
+"The podcast that is being monitored, is detemined by the Studio Link Slug, "
+"you set in the <strong>General Options</strong>.<br>If you want to use "
+"another slug, you can set it in the Shortcode: <strong>[StudioLink slug="
+"\"myteststream\" online=\"true\"]The Podcast with the slug \"myteststream\" "
+"is online![/StudioLink]"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:365
 #, php-format
 msgid ""
-"You need to have a connection to the Twitter API to make it possible to post "
-"automaticly onto Twitter:<br><ol><strong><li>Apply for a Developer Account "
-"at <a href=\"https://developer.twitter.com/\">Twitter</a></li><li>Register "
-"this site as an application on <a href=\"https://developer.twitter."
-"com/en/apps\">Registration for Applications</a>.</li></strong><ul><li>Your "
-"App can not include \"Twitter\".</li><li>Your Applicationdescription can be "
-"anything</li><li>Check \"Enable Sign in with Twitter\".</li><li>The WebSite "
+"You need to have a connection to the Twitter API to get the automated "
+"publishing to work:<br><ol><strong><li>Apply for a Developer Account at <a "
+"href=\"https://developer.twitter.com/\">Twitter</a></li><li>Register this "
+"site as an application on <a href=\"https://developer.twitter.com/en/apps"
+"\">Registration for Applications</a>.</li></strong><ul><li>Your App may not "
+"include the term \"Twitter\".</li><li>Your Application Description can be "
+"anything</li><li>Check \"Enable Sign in with Twitter\".</li><li>The Website "
 "and Callback URL should be: <a href=\"%1$s\">%2$s</a></ul><strong><li>Get "
-"the API and Access Tokens and Secrets and copy them into the Fields below."
-"</li></strong></ol>"
+"the API, Access Tokens and Secrets. Paste them into the Fields below.</li></"
+"strong></ol>"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:376
@@ -266,8 +252,8 @@ msgstr ""
 #: admin/class-studio-link-integration-settings.php:395
 #, php-format
 msgid ""
-"This Area is still under heavy construction! None of the Options will Work "
-"in the realeased Version %s!"
+"This area is still under heavy construction! None of the options will work "
+"in the most current version %s!"
 msgstr ""
 
 #: admin/class-studio-link-integration-settings.php:401
@@ -282,22 +268,43 @@ msgstr ""
 msgid "Twitter Options"
 msgstr ""
 
-#. Name of the plugin
-msgid "Studio Link Integration"
+#: admin/lightweight-options-framework/lof.php:183
+msgid "Checkbox"
 msgstr ""
 
-#. Description of the plugin
-msgid "This Plugin integrates Studio Link into your Wordpress installation."
+#: admin/lightweight-options-framework/lof.php:183
+#: admin/lightweight-options-framework/lof.php:189
+#: admin/lightweight-options-framework/lof.php:198
+#: admin/lightweight-options-framework/lof.php:206
+#: admin/lightweight-options-framework/lof.php:220
+msgid "with value"
 msgstr ""
 
-#. URI of the plugin
-msgid "https://sendegate.de/t/wordpress-studio-link-integration/8416"
+#: admin/lightweight-options-framework/lof.php:183
+msgid "checked"
 msgstr ""
 
-#. Author of the plugin
-msgid "Nicolas Mierbach"
+#: admin/lightweight-options-framework/lof.php:183
+msgid "not checked"
 msgstr ""
 
-#. Author URI of the plugin
-msgid "https://github.com/dev-nm/WP-StudioLink-Integration"
+#: admin/lightweight-options-framework/lof.php:189
+msgid "Switch"
+msgstr ""
+
+#: admin/lightweight-options-framework/lof.php:189
+msgid "On"
+msgstr ""
+
+#: admin/lightweight-options-framework/lof.php:189
+msgid "Off"
+msgstr ""
+
+#: admin/lightweight-options-framework/lof.php:198
+#: admin/lightweight-options-framework/lof.php:206
+msgid "Textarea"
+msgstr ""
+
+#: admin/lightweight-options-framework/lof.php:220
+msgid "Input Field"
 msgstr ""
