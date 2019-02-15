@@ -202,11 +202,12 @@ class Lightweight_Options_Framework {
 						);
 					break;
 				case 'twitterpost':
-					printf( '<div class="form-group"><textarea aria-label="%s" name="%s" class="form-control status-box" rows="4" cols="50" placeholder="%s">%s</textarea><br><br>Übrig: <div class="counter">280</div></div>',
+					printf( '<div class="form-group"><textarea aria-label="%s" name="%s" class="form-control status-box" rows="4" cols="50" placeholder="%s">%s</textarea><br><br>%s: <div class="counter">280</div></div>',
 						__('Textarea', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value,
 						$section['option_get'] . '[' . $field['id'] . ']',
 						$placeholder,
-						$value
+						$value,
+						__('Characters remaining', 'studio-link-integration')
 						);
 					break;
 				case 'custom':

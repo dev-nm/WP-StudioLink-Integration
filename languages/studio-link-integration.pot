@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: studio-link-integration\n"
-"POT-Creation-Date: 2019-02-15 13:41+0100\n"
+"POT-Creation-Date: 2019-02-15 13:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -276,7 +276,7 @@ msgstr ""
 #: admin/lightweight-options-framework/lof.php:189
 #: admin/lightweight-options-framework/lof.php:198
 #: admin/lightweight-options-framework/lof.php:206
-#: admin/lightweight-options-framework/lof.php:220
+#: admin/lightweight-options-framework/lof.php:221
 msgid "with value"
 msgstr ""
 
@@ -305,6 +305,10 @@ msgstr ""
 msgid "Textarea"
 msgstr ""
 
-#: admin/lightweight-options-framework/lof.php:220
+#: admin/lightweight-options-framework/lof.php:210
+msgid "Characters remaining"
+msgstr ""
+
+#: admin/lightweight-options-framework/lof.php:221
 msgid "Input Field"
 msgstr ""

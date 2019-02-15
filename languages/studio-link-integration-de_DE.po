@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: studio-link-integration\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-15 13:41+0100\n"
-"PO-Revision-Date: 2019-02-15 13:41+0100\n"
+"POT-Creation-Date: 2019-02-15 13:47+0100\n"
+"PO-Revision-Date: 2019-02-15 13:47+0100\n"
 "Last-Translator: n.mierbach <n.mierbach@mierbach.de>\n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -325,7 +325,7 @@ msgstr "Checkbox"
 #: admin/lightweight-options-framework/lof.php:189
 #: admin/lightweight-options-framework/lof.php:198
 #: admin/lightweight-options-framework/lof.php:206
-#: admin/lightweight-options-framework/lof.php:220
+#: admin/lightweight-options-framework/lof.php:221
 msgid "with value"
 msgstr "mit Wert"
 
@@ -354,7 +354,11 @@ msgstr "Aus"
 msgid "Textarea"
 msgstr "Textfeld"
 
-#: admin/lightweight-options-framework/lof.php:220
+#: admin/lightweight-options-framework/lof.php:210
+msgid "Characters remaining"
+msgstr "Zeichen übrig"
+
+#: admin/lightweight-options-framework/lof.php:221
 msgid "Input Field"
 msgstr "Eingabefeld"
 
