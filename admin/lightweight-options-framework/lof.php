@@ -180,7 +180,7 @@ class Lightweight_Options_Framework {
 						$value === '1' ? 'checked' : '',
 						$field['id'],
 						$section['option_get'] . '[' . $field['id'] . ']',
-						__('Checkbox', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value === '1' ? __('Checked', 'studio-link-integration') : __('not Checked', 'studio-link-integration')
+						__('Checkbox', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value === '1' ? __('checked', 'studio-link-integration') : __('not checked', 'studio-link-integration')
 					);
 					break;
 				case 'switch':
@@ -195,18 +195,19 @@ class Lightweight_Options_Framework {
 					break;
 				case 'textarea':
 					printf( '<textarea aria-label="%s" name="%1$s" id="%1$s" placeholder="%2$s" rows="5" cols="50">%3$s</textarea>',
-						__('Text Area', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value,
+						__('Textarea', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value,
 						$section['option_get'] . '[' . $field['id'] . ']',
 						$placeholder,
 						$value
 						);
 					break;
 				case 'twitterpost':
-					printf( '<div class="form-group"><textarea aria-label="%s" name="%s" class="form-control status-box" rows="4" cols="50" placeholder="%s">%s</textarea><br><br>Übrig: <div class="counter">280</div></div>',
-						__('Text Area', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value,
+					printf( '<div class="form-group"><textarea aria-label="%s" name="%s" class="form-control status-box" rows="4" cols="50" placeholder="%s">%s</textarea><br><br>%s: <div class="counter">280</div></div>',
+						__('Textarea', 'studio-link-integration') . ' ' . $field['label'] . ' ' . __('with value', 'studio-link-integration') . ' ' . $value,
 						$section['option_get'] . '[' . $field['id'] . ']',
 						$placeholder,
-						$value
+						$value,
+						__('Characters remaining', 'studio-link-integration')
 						);
 					break;
 				case 'custom':
