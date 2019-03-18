@@ -126,66 +126,8 @@ class Studio_Link_Integration_Public {
 	 * @since    1.0.0
 	 */
 	public function register_shortcodes() {
-		add_shortcode( 'StudioLink', array( $this, 'studioLink_Integration_Shortcode') );
-	}
-	
-	/**
-	 * Initialize the StudioLink shortcode.
-	 *
-	 * @since    1.0.0
-	 */
-	function studioLink_Integration_Shortcode( $atts, $content ) {
-		//Test if Shortcodes are activated
-		$general = get_option( 'stli_general' );
-		if( $general['stli_enable_shortcodes'] ){
-			// Speichere Übergabewerte
-			$_atts = shortcode_atts( array(
-				'online' => NULL,
-				'status' => NULL,
-				'slug' => NULL
-			), $atts );
-			
-			// Args werden in besser verarbeitbare Variablen umgeschrieben
-			$online = $_atts['online'];
-			$status = $_atts['status'];
-			$slug = $_atts['slug'];
-			
-			// Leere Übergabewerte werden gefüllt
-			if(empty($online)){
-				if(empty($status)){
-					$online = 'true';
-				} else {
-					if($status == 'test' || $status == 'break' || $status == 'offline') {
-						$online = 'false';
-					} else {
-						$online = 'true';
-					}
-				}
-			}
-			
-			// Args sollen alle kleingeschrieben sein
-			$online = strtolower($online);
-			if(!empty($status))
-				$status = strtolower($status);
-			
-			// Erzeuge StudioLink Objekt
-			$StudioLink = new STLI_StudioLink($_atts['slug']);
-			// Abbruch wenn kein Inhalt zwischen Shortcode
-			if ( ! is_null( $content ) ) {
-				// Onlinestatus bei nicht angabe eines Status wird geprüft
-				if($StudioLink->online == $online && empty($status)) { 
-					return $content;
-				}
-				// Onlinestatus bei angabe eines Status wird geprüft
-				if($StudioLink->online != $online || $StudioLink->state != $status) {
-					return '';
-				} else {
-					return $content;
-				}
-			} else {
-				return '';
-			}
-		}
+		$StudioLink = new STLI_StudioLink();
+		add_shortcode( 'StudioLink', array( $StudioLink, 'studioLink_Integration_Shortcode') );
 	}
 	
 }
