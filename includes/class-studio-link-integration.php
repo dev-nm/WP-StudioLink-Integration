@@ -118,6 +118,11 @@ class Studio_Link_Integration {
 		 * side of the site.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-studio-link-integration-public.php';
+		
+		/**
+		 * The class responsible for getting and storing the Studio Link Status.
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-studio-link-integration-status.php';
 
 		$this->loader = new Studio_Link_Integration_Loader();
 
