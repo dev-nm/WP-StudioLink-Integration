@@ -16,6 +16,8 @@ class Lightweight_Options_Framework {
 	private $sections;
 	private $fields;
 	
+	private $actions = array();
+	
 	function __construct(){
 
 	}
@@ -93,6 +95,9 @@ class Lightweight_Options_Framework {
 		$sections = $this->sections;
 		foreach( (array)$sections as $section){
 			add_settings_section( $section['id'], $section['title'], $section['callback'], $section['page'] );
+			if( isset( $section['save_action'] ) ){
+				array_push( $this->actions, array(  'get' => $section['option_get'], 'action' => $section['save_action'] ) );
+			}
 		}
 	}
 
@@ -112,6 +117,9 @@ class Lightweight_Options_Framework {
 		}
 		foreach( $groups as $key => $group ) {
 			register_setting( $key, $group );
+		}
+		foreach( $this->actions as $action ) {
+			add_filter( 'pre_update_option_' . $action['get'], $action['action'], 10, 2 );
 		}
 	}
 	

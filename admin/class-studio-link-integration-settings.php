@@ -111,6 +111,7 @@ class STLI_Admin_Settings {
 				'callback' => array( $this, 'general_section_content' ),
 				'page' => 'stli_general_settings',
 				'option_get' => 'stli_general',
+				'save_action' => array($this, 'update_general_action'),
 			),
 			array(
 				'id' => 'stli_social_general_section',
@@ -357,6 +358,11 @@ The podcast that is being monitored, is detemined by the Studio Link Slug, you s
 	/*********************************
 	* Custom Callbacks
 	*/
+	
+	public function update_general_action( $new_value, $old_value ){
+		delete_transient( 'stli_status' );
+		return $new_value;
+	}
 	
 	public function stli_social_general_content(){
 	?>
